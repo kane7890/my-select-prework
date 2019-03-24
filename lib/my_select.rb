@@ -14,4 +14,4 @@ def my_select(collection)
   collec2
   # code here
 end
-end
+
