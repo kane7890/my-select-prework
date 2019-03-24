@@ -5,13 +5,14 @@ def my_select(collection)
   collec2=[]
   if clength > 0 
   while i < clength 
-     collec2[j] = yield(collection[i])
-     
+     if yield(collection[i])
+       collec2[j] = collection[i]
+       j += 1
+     end
      i += 1
-     j += 1
     end
   end
-  # collec2
+   collec2
   # code here
 end
 
