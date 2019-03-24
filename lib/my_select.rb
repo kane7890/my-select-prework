@@ -11,7 +11,7 @@ def my_select(collection)
      j += 1
     end
   end
-  collec2
+  # collec2
   # code here
 end
 
